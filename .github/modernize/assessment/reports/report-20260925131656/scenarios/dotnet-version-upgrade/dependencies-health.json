@@ -1,0 +1,4434 @@
+{
+  "packageGovernance": {
+    "totalDistinctPackages": 117,
+    "totalVersionDriftInstances": 2,
+    "targetFramework": "net10.0",
+    "packages": [
+      {
+        "name": "Microsoft.Bcl.AsyncInterfaces",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 2,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          },
+          {
+            "version": "1.1.1",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": false
+          }
+        ]
+      },
+      {
+        "name": "System.Reflection.Metadata",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 2,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          },
+          {
+            "version": "1.6.0",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": false
+          }
+        ]
+      },
+      {
+        "name": "Azure.Core",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.38.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.38.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Azure.Identity",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.11.4",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.11.4",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "coverlet.collector",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.2",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.2",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Humanizer.Core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.14.1",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.14.1",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.AspNetCore.Mvc.Testing",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.12",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.12"
+        }
+      },
+      {
+        "name": "Microsoft.AspNetCore.TestHost",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Build.Framework",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "17.8.3",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "17.8.3",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Build.Locator",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.7.8",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.7.8",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.CodeAnalysis.Analyzers",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "3.3.4",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.3.4",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.CodeAnalysis.Common",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.8.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.8.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.CodeAnalysis.CSharp",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.8.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.8.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.8.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.8.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.CodeAnalysis.Workspaces.Common",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.8.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.8.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.8.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.8.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.CodeCoverage",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "17.12.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "17.12.0",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.CSharp",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.5.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.5.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Data.SqlClient",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.1.6",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "5.1.6",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Data.SqlClient.SNI.runtime",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.1.1",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "5.1.1",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore.Abstractions",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore.Analyzers",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore.Design",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.12",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.12"
+        }
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore.InMemory",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.12",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.12"
+        }
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore.Relational",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.EntityFrameworkCore.SqlServer",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "10.0.12",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "10.0.12"
+        }
+      },
+      {
+        "name": "Microsoft.Extensions.Caching.Abstractions",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Caching.Memory",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration.Abstractions",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration.Binder",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration.CommandLine",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration.FileExtensions",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration.Json",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration.UserSecrets",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.DependencyInjection",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.DependencyModel",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Diagnostics",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.FileProviders.Abstractions",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.FileProviders.Physical",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.FileSystemGlobbing",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Hosting",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Hosting.Abstractions",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Logging",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Logging.Abstractions",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Logging.Configuration",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Logging.Console",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Logging.Debug",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Logging.EventLog",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Logging.EventSource",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Options",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Extensions.Primitives",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Identity.Client",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.61.3",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.61.3",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Identity.Client.Extensions.Msal",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.61.3",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.61.3",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.IdentityModel.Abstractions",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.35.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.35.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.IdentityModel.JsonWebTokens",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.35.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.35.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.IdentityModel.Logging",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.35.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.35.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.IdentityModel.Protocols",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.35.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.35.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.35.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.35.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.IdentityModel.Tokens",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.35.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.35.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "17.12.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "17.12.0",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.NETCore.Platforms",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.1.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.NETCore.Targets",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.1.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.SqlServer.Server",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.TestPlatform.ObjectModel",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "17.12.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "17.12.0",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.TestPlatform.TestHost",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "17.12.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "17.12.0",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Microsoft.Win32.SystemEvents",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Mono.TextTemplating",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "3.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "Newtonsoft.Json",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "13.0.1",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "13.0.1",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "SixLabors.ImageSharp",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "3.1.11",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.1.11",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.ClientModel",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.CodeDom",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Collections.Immutable",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Composition",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Composition.AttributedModel",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Composition.Convention",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Composition.Hosting",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Composition.Runtime",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Composition.TypedParts",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Configuration.ConfigurationManager",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.1",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.1",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Diagnostics.DiagnosticSource",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.1",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.1",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Diagnostics.EventLog",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Drawing.Common",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Formats.Asn1",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.IdentityModel.Tokens.Jwt",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.35.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.35.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.IO.Pipelines",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Memory",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.5.4",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.5.4",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Memory.Data",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.0.2",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Numerics.Vectors",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.5.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.5.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Runtime",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.3.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.3.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Runtime.Caching",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Runtime.CompilerServices.Unsafe",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Security.AccessControl",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Security.Cryptography.Cng",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "5.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Security.Cryptography.ProtectedData",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Security.Permissions",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Security.Principal.Windows",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "5.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Text.Encoding",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.3.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.3.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Text.Encoding.CodePages",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Text.Encodings.Web",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Text.Json",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.0.9",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "9.0.9",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Threading.Channels",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "7.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "7.0.0",
+            "projects": [
+              "PhotoAlbum"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Threading.Tasks.Extensions",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.5.4",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.5.4",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "System.Windows.Extensions",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.0.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "6.0.0",
+            "projects": [
+              "PhotoAlbum",
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "xunit",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.9.2",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.9.2",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "xunit.abstractions",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.0.3",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.0.3",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "xunit.analyzers",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.16.0",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.16.0",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "xunit.assert",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.9.2",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.9.2",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "xunit.core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.9.2",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.9.2",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "xunit.extensibility.core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.9.2",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.9.2",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "xunit.extensibility.execution",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.9.2",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.9.2",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      },
+      {
+        "name": "xunit.runner.visualstudio",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "2.8.2",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.8.2",
+            "projects": [
+              "PhotoAlbum.Tests"
+            ],
+            "isRecommended": true
+          }
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "PhotoAlbum",
+      "path": "PhotoAlbum\\PhotoAlbum.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net9.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Azure.Core",
+            "version": "1.38.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Azure.Core"
+            ]
+          },
+          {
+            "name": "Azure.Identity",
+            "version": "1.11.4",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity"
+            ]
+          },
+          {
+            "name": "Humanizer.Core",
+            "version": "2.14.1",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Humanizer.Core"
+            ]
+          },
+          {
+            "name": "Microsoft.Bcl.AsyncInterfaces",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common \u003E Microsoft.Bcl.AsyncInterfaces"
+            ]
+          },
+          {
+            "name": "Microsoft.Build.Framework",
+            "version": "17.8.3",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Build.Framework"
+            ]
+          },
+          {
+            "name": "Microsoft.Build.Locator",
+            "version": "1.7.8",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Build.Locator"
+            ]
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Analyzers",
+            "version": "3.3.4",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp \u003E Microsoft.CodeAnalysis.Common \u003E Microsoft.CodeAnalysis.Analyzers"
+            ]
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Common",
+            "version": "4.8.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp \u003E Microsoft.CodeAnalysis.Common"
+            ]
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.CSharp",
+            "version": "4.8.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp"
+            ]
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+            "version": "4.8.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces"
+            ]
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Workspaces.Common",
+            "version": "4.8.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common"
+            ]
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+            "version": "4.8.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.Workspaces.MSBuild"
+            ]
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "4.5.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E Microsoft.IdentityModel.Tokens \u003E Microsoft.CSharp"
+            ]
+          },
+          {
+            "name": "Microsoft.Data.SqlClient",
+            "version": "5.1.6",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient"
+            ]
+          },
+          {
+            "name": "Microsoft.Data.SqlClient.SNI.runtime",
+            "version": "5.1.1",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.Data.SqlClient.SNI.runtime"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.EntityFrameworkCore.Relational \u003E Microsoft.EntityFrameworkCore"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.EntityFrameworkCore.Relational \u003E Microsoft.EntityFrameworkCore \u003E Microsoft.EntityFrameworkCore.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.Analyzers",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.EntityFrameworkCore.Relational \u003E Microsoft.EntityFrameworkCore \u003E Microsoft.EntityFrameworkCore.Analyzers"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.Design",
+            "version": "9.0.9",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum\\PhotoAlbum.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.12",
+            "upgrade": {
+              "newVersion": "10.0.12"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.Relational",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.EntityFrameworkCore.Relational"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.SqlServer",
+            "version": "9.0.9",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum\\PhotoAlbum.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.12",
+            "upgrade": {
+              "newVersion": "10.0.12"
+            }
+          },
+          {
+            "name": "Microsoft.Extensions.Caching.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.Caching.Memory \u003E Microsoft.Extensions.Caching.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Caching.Memory",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.Caching.Memory"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.Configuration.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyInjection",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.Logging \u003E Microsoft.Extensions.DependencyInjection"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.Caching.Memory \u003E Microsoft.Extensions.DependencyInjection.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyModel",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.DependencyModel"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Logging",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.Logging"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.Caching.Memory \u003E Microsoft.Extensions.Logging.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Options",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.Caching.Memory \u003E Microsoft.Extensions.Options"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Primitives",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.Extensions.Caching.Memory \u003E Microsoft.Extensions.Primitives"
+            ]
+          },
+          {
+            "name": "Microsoft.Identity.Client",
+            "version": "4.61.3",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.Identity.Client"
+            ]
+          },
+          {
+            "name": "Microsoft.Identity.Client.Extensions.Msal",
+            "version": "4.61.3",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Microsoft.Identity.Client.Extensions.Msal"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Abstractions",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.Identity.Client \u003E Microsoft.IdentityModel.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.JsonWebTokens",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Logging",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E Microsoft.IdentityModel.Tokens \u003E Microsoft.IdentityModel.Logging"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Protocols",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.Protocols.OpenIdConnect \u003E Microsoft.IdentityModel.Protocols"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.Protocols.OpenIdConnect"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Tokens",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E Microsoft.IdentityModel.Tokens"
+            ]
+          },
+          {
+            "name": "Microsoft.NETCore.Platforms",
+            "version": "1.1.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E System.Text.Encoding \u003E Microsoft.NETCore.Platforms"
+            ]
+          },
+          {
+            "name": "Microsoft.NETCore.Targets",
+            "version": "1.1.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E System.Text.Encoding \u003E Microsoft.NETCore.Targets"
+            ]
+          },
+          {
+            "name": "Microsoft.SqlServer.Server",
+            "version": "1.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.SqlServer.Server"
+            ]
+          },
+          {
+            "name": "Microsoft.Win32.SystemEvents",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions \u003E System.Windows.Extensions \u003E System.Drawing.Common \u003E Microsoft.Win32.SystemEvents"
+            ]
+          },
+          {
+            "name": "Mono.TextTemplating",
+            "version": "3.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Mono.TextTemplating"
+            ]
+          },
+          {
+            "name": "SixLabors.ImageSharp",
+            "version": "3.1.11",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum\\PhotoAlbum.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "System.ClientModel",
+            "version": "1.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Azure.Core \u003E System.ClientModel"
+            ]
+          },
+          {
+            "name": "System.CodeDom",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Mono.TextTemplating \u003E System.CodeDom"
+            ]
+          },
+          {
+            "name": "System.Collections.Immutable",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp \u003E Microsoft.CodeAnalysis.Common \u003E System.Collections.Immutable"
+            ]
+          },
+          {
+            "name": "System.Composition",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common \u003E System.Composition"
+            ]
+          },
+          {
+            "name": "System.Composition.AttributedModel",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common \u003E System.Composition \u003E System.Composition.AttributedModel"
+            ]
+          },
+          {
+            "name": "System.Composition.Convention",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common \u003E System.Composition \u003E System.Composition.Convention"
+            ]
+          },
+          {
+            "name": "System.Composition.Hosting",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common \u003E System.Composition \u003E System.Composition.Hosting"
+            ]
+          },
+          {
+            "name": "System.Composition.Runtime",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common \u003E System.Composition \u003E System.Composition.Runtime"
+            ]
+          },
+          {
+            "name": "System.Composition.TypedParts",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common \u003E System.Composition \u003E System.Composition.TypedParts"
+            ]
+          },
+          {
+            "name": "System.Configuration.ConfigurationManager",
+            "version": "6.0.1",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager"
+            ]
+          },
+          {
+            "name": "System.Diagnostics.DiagnosticSource",
+            "version": "6.0.1",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Diagnostics.DiagnosticSource"
+            ]
+          },
+          {
+            "name": "System.Drawing.Common",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions \u003E System.Windows.Extensions \u003E System.Drawing.Common"
+            ]
+          },
+          {
+            "name": "System.Formats.Asn1",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E System.Formats.Asn1"
+            ]
+          },
+          {
+            "name": "System.IdentityModel.Tokens.Jwt",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.Protocols.OpenIdConnect \u003E System.IdentityModel.Tokens.Jwt"
+            ]
+          },
+          {
+            "name": "System.IO.Pipelines",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common \u003E System.IO.Pipelines"
+            ]
+          },
+          {
+            "name": "System.Memory",
+            "version": "4.5.4",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E System.Memory"
+            ]
+          },
+          {
+            "name": "System.Memory.Data",
+            "version": "1.0.2",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Azure.Core \u003E System.Memory.Data"
+            ]
+          },
+          {
+            "name": "System.Numerics.Vectors",
+            "version": "4.5.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Azure.Core \u003E System.Numerics.Vectors"
+            ]
+          },
+          {
+            "name": "System.Reflection.Metadata",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp \u003E Microsoft.CodeAnalysis.Common \u003E System.Reflection.Metadata"
+            ]
+          },
+          {
+            "name": "System.Runtime",
+            "version": "4.3.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E System.Text.Encoding \u003E System.Runtime"
+            ]
+          },
+          {
+            "name": "System.Runtime.Caching",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Runtime.Caching"
+            ]
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp \u003E Microsoft.CodeAnalysis.Common \u003E System.Runtime.CompilerServices.Unsafe"
+            ]
+          },
+          {
+            "name": "System.Security.AccessControl",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions \u003E System.Security.AccessControl"
+            ]
+          },
+          {
+            "name": "System.Security.Cryptography.Cng",
+            "version": "5.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Security.Cryptography.Cng"
+            ]
+          },
+          {
+            "name": "System.Security.Cryptography.ProtectedData",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E System.Security.Cryptography.ProtectedData"
+            ]
+          },
+          {
+            "name": "System.Security.Permissions",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions"
+            ]
+          },
+          {
+            "name": "System.Security.Principal.Windows",
+            "version": "5.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Security.Principal.Windows"
+            ]
+          },
+          {
+            "name": "System.Text.Encoding",
+            "version": "4.3.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E System.Text.Encoding"
+            ]
+          },
+          {
+            "name": "System.Text.Encoding.CodePages",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Text.Encoding.CodePages"
+            ]
+          },
+          {
+            "name": "System.Text.Encodings.Web",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Text.Encodings.Web"
+            ]
+          },
+          {
+            "name": "System.Text.Json",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E System.Text.Json"
+            ]
+          },
+          {
+            "name": "System.Threading.Channels",
+            "version": "7.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.Design \u003E Microsoft.CodeAnalysis.CSharp.Workspaces \u003E Microsoft.CodeAnalysis.Workspaces.Common \u003E System.Threading.Channels"
+            ]
+          },
+          {
+            "name": "System.Threading.Tasks.Extensions",
+            "version": "4.5.4",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E System.Threading.Tasks.Extensions"
+            ]
+          },
+          {
+            "name": "System.Windows.Extensions",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions \u003E System.Windows.Extensions"
+            ]
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "PhotoAlbum.Tests",
+      "path": "PhotoAlbum.Tests\\PhotoAlbum.Tests.csproj",
+      "isSdk": true,
+      "currentFrameworks": [
+        "net9.0"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Azure.Core",
+            "version": "1.38.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Azure.Core"
+            ]
+          },
+          {
+            "name": "Azure.Identity",
+            "version": "1.11.4",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity"
+            ]
+          },
+          {
+            "name": "coverlet.collector",
+            "version": "6.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum.Tests\\PhotoAlbum.Tests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNetCore.Mvc.Testing",
+            "version": "9.0.9",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum.Tests\\PhotoAlbum.Tests.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.12",
+            "upgrade": {
+              "newVersion": "10.0.12"
+            }
+          },
+          {
+            "name": "Microsoft.AspNetCore.TestHost",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.AspNetCore.TestHost"
+            ]
+          },
+          {
+            "name": "Microsoft.Bcl.AsyncInterfaces",
+            "version": "1.1.1",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Azure.Core \u003E Microsoft.Bcl.AsyncInterfaces"
+            ]
+          },
+          {
+            "name": "Microsoft.CodeCoverage",
+            "version": "17.12.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.NET.Test.Sdk \u003E Microsoft.CodeCoverage"
+            ]
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "4.5.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E Microsoft.IdentityModel.Tokens \u003E Microsoft.CSharp"
+            ]
+          },
+          {
+            "name": "Microsoft.Data.SqlClient",
+            "version": "5.1.6",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient"
+            ]
+          },
+          {
+            "name": "Microsoft.Data.SqlClient.SNI.runtime",
+            "version": "5.1.1",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.Data.SqlClient.SNI.runtime"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.InMemory \u003E Microsoft.EntityFrameworkCore"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.InMemory \u003E Microsoft.EntityFrameworkCore \u003E Microsoft.EntityFrameworkCore.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.Analyzers",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.InMemory \u003E Microsoft.EntityFrameworkCore \u003E Microsoft.EntityFrameworkCore.Analyzers"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.InMemory",
+            "version": "9.0.9",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum.Tests\\PhotoAlbum.Tests.csproj"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.12",
+            "upgrade": {
+              "newVersion": "10.0.12"
+            }
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.Relational",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.EntityFrameworkCore.Relational"
+            ]
+          },
+          {
+            "name": "Microsoft.EntityFrameworkCore.SqlServer",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "10.0.12",
+            "upgrade": {
+              "newVersion": "10.0.12"
+            },
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Caching.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.InMemory \u003E Microsoft.Extensions.Caching.Memory \u003E Microsoft.Extensions.Caching.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Caching.Memory",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.InMemory \u003E Microsoft.Extensions.Caching.Memory"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Configuration"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Configuration.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Binder",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Configuration.Binder"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.CommandLine",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Configuration.CommandLine"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Configuration.EnvironmentVariables"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.FileExtensions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Configuration.FileExtensions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Json",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Configuration.Json"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.UserSecrets",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Configuration.UserSecrets"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyInjection",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.DependencyInjection"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.DependencyInjection.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyModel",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.DependencyModel"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Diagnostics",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Diagnostics"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Diagnostics \u003E Microsoft.Extensions.Diagnostics.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.FileProviders.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.FileProviders.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.FileProviders.Physical",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.FileProviders.Physical"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.FileSystemGlobbing",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.FileProviders.Physical \u003E Microsoft.Extensions.FileSystemGlobbing"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Hosting",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Hosting.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Hosting.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Logging",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.InMemory \u003E Microsoft.Extensions.Logging"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Abstractions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Logging.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Configuration",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Logging.Configuration"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Console",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Logging.Console"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Debug",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Logging.Debug"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.EventLog",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Logging.EventLog"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.EventSource",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Logging.EventSource"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Options",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Options"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Diagnostics \u003E Microsoft.Extensions.Options.ConfigurationExtensions"
+            ]
+          },
+          {
+            "name": "Microsoft.Extensions.Primitives",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.EntityFrameworkCore.InMemory \u003E Microsoft.Extensions.Caching.Memory \u003E Microsoft.Extensions.Primitives"
+            ]
+          },
+          {
+            "name": "Microsoft.Identity.Client",
+            "version": "4.61.3",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.Identity.Client"
+            ]
+          },
+          {
+            "name": "Microsoft.Identity.Client.Extensions.Msal",
+            "version": "4.61.3",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Microsoft.Identity.Client.Extensions.Msal"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Abstractions",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.Identity.Client \u003E Microsoft.IdentityModel.Abstractions"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.JsonWebTokens",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Logging",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E Microsoft.IdentityModel.Tokens \u003E Microsoft.IdentityModel.Logging"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Protocols",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.Protocols.OpenIdConnect \u003E Microsoft.IdentityModel.Protocols"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.Protocols.OpenIdConnect"
+            ]
+          },
+          {
+            "name": "Microsoft.IdentityModel.Tokens",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E Microsoft.IdentityModel.Tokens"
+            ]
+          },
+          {
+            "name": "Microsoft.NET.Test.Sdk",
+            "version": "17.12.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum.Tests\\PhotoAlbum.Tests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.NETCore.Platforms",
+            "version": "1.1.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E System.Text.Encoding \u003E Microsoft.NETCore.Platforms"
+            ]
+          },
+          {
+            "name": "Microsoft.NETCore.Targets",
+            "version": "1.1.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E System.Text.Encoding \u003E Microsoft.NETCore.Targets"
+            ]
+          },
+          {
+            "name": "Microsoft.SqlServer.Server",
+            "version": "1.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.SqlServer.Server"
+            ]
+          },
+          {
+            "name": "Microsoft.TestPlatform.ObjectModel",
+            "version": "17.12.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.NET.Test.Sdk \u003E Microsoft.TestPlatform.TestHost \u003E Microsoft.TestPlatform.ObjectModel"
+            ]
+          },
+          {
+            "name": "Microsoft.TestPlatform.TestHost",
+            "version": "17.12.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.NET.Test.Sdk \u003E Microsoft.TestPlatform.TestHost"
+            ]
+          },
+          {
+            "name": "Microsoft.Win32.SystemEvents",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions \u003E System.Windows.Extensions \u003E System.Drawing.Common \u003E Microsoft.Win32.SystemEvents"
+            ]
+          },
+          {
+            "name": "Newtonsoft.Json",
+            "version": "13.0.1",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.NET.Test.Sdk \u003E Microsoft.TestPlatform.TestHost \u003E Newtonsoft.Json"
+            ]
+          },
+          {
+            "name": "SixLabors.ImageSharp",
+            "version": "3.1.11",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E SixLabors.ImageSharp"
+            ]
+          },
+          {
+            "name": "System.ClientModel",
+            "version": "1.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Azure.Core \u003E System.ClientModel"
+            ]
+          },
+          {
+            "name": "System.Configuration.ConfigurationManager",
+            "version": "6.0.1",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager"
+            ]
+          },
+          {
+            "name": "System.Diagnostics.DiagnosticSource",
+            "version": "6.0.1",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Diagnostics.DiagnosticSource"
+            ]
+          },
+          {
+            "name": "System.Diagnostics.EventLog",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.AspNetCore.Mvc.Testing \u003E Microsoft.Extensions.Hosting \u003E Microsoft.Extensions.Logging.EventLog \u003E System.Diagnostics.EventLog"
+            ]
+          },
+          {
+            "name": "System.Drawing.Common",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions \u003E System.Windows.Extensions \u003E System.Drawing.Common"
+            ]
+          },
+          {
+            "name": "System.Formats.Asn1",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E System.Formats.Asn1"
+            ]
+          },
+          {
+            "name": "System.IdentityModel.Tokens.Jwt",
+            "version": "6.35.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.Protocols.OpenIdConnect \u003E System.IdentityModel.Tokens.Jwt"
+            ]
+          },
+          {
+            "name": "System.Memory",
+            "version": "4.5.4",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E System.Memory"
+            ]
+          },
+          {
+            "name": "System.Memory.Data",
+            "version": "1.0.2",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Azure.Core \u003E System.Memory.Data"
+            ]
+          },
+          {
+            "name": "System.Numerics.Vectors",
+            "version": "4.5.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E Azure.Core \u003E System.Numerics.Vectors"
+            ]
+          },
+          {
+            "name": "System.Reflection.Metadata",
+            "version": "1.6.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "Microsoft.NET.Test.Sdk \u003E Microsoft.TestPlatform.TestHost \u003E Microsoft.TestPlatform.ObjectModel \u003E System.Reflection.Metadata"
+            ]
+          },
+          {
+            "name": "System.Runtime",
+            "version": "4.3.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E System.Text.Encoding \u003E System.Runtime"
+            ]
+          },
+          {
+            "name": "System.Runtime.Caching",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Runtime.Caching"
+            ]
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Diagnostics.DiagnosticSource \u003E System.Runtime.CompilerServices.Unsafe"
+            ]
+          },
+          {
+            "name": "System.Security.AccessControl",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions \u003E System.Security.AccessControl"
+            ]
+          },
+          {
+            "name": "System.Security.Cryptography.Cng",
+            "version": "5.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Security.Cryptography.Cng"
+            ]
+          },
+          {
+            "name": "System.Security.Cryptography.ProtectedData",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E System.Security.Cryptography.ProtectedData"
+            ]
+          },
+          {
+            "name": "System.Security.Permissions",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions"
+            ]
+          },
+          {
+            "name": "System.Security.Principal.Windows",
+            "version": "5.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Security.Principal.Windows"
+            ]
+          },
+          {
+            "name": "System.Text.Encoding",
+            "version": "4.3.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Microsoft.IdentityModel.JsonWebTokens \u003E System.Text.Encoding"
+            ]
+          },
+          {
+            "name": "System.Text.Encoding.CodePages",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Text.Encoding.CodePages"
+            ]
+          },
+          {
+            "name": "System.Text.Encodings.Web",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Text.Encodings.Web"
+            ]
+          },
+          {
+            "name": "System.Text.Json",
+            "version": "9.0.9",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E System.Text.Json"
+            ]
+          },
+          {
+            "name": "System.Threading.Tasks.Extensions",
+            "version": "4.5.4",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E Azure.Identity \u003E System.Threading.Tasks.Extensions"
+            ]
+          },
+          {
+            "name": "System.Windows.Extensions",
+            "version": "6.0.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "PhotoAlbum \u003E Microsoft.EntityFrameworkCore.SqlServer \u003E Microsoft.Data.SqlClient \u003E System.Configuration.ConfigurationManager \u003E System.Security.Permissions \u003E System.Windows.Extensions"
+            ]
+          },
+          {
+            "name": "xunit",
+            "version": "2.9.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum.Tests\\PhotoAlbum.Tests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "xunit.abstractions",
+            "version": "2.0.3",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "xunit \u003E xunit.core \u003E xunit.extensibility.core \u003E xunit.abstractions"
+            ]
+          },
+          {
+            "name": "xunit.analyzers",
+            "version": "1.16.0",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "xunit \u003E xunit.analyzers"
+            ]
+          },
+          {
+            "name": "xunit.assert",
+            "version": "2.9.2",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "xunit \u003E xunit.assert"
+            ]
+          },
+          {
+            "name": "xunit.core",
+            "version": "2.9.2",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "xunit \u003E xunit.core"
+            ]
+          },
+          {
+            "name": "xunit.extensibility.core",
+            "version": "2.9.2",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "xunit \u003E xunit.core \u003E xunit.extensibility.core"
+            ]
+          },
+          {
+            "name": "xunit.extensibility.execution",
+            "version": "2.9.2",
+            "isTransitive": true,
+            "isGlobal": false,
+            "isImplicit": false,
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": "",
+            "transitiveChain": [
+              "xunit \u003E xunit.core \u003E xunit.extensibility.execution"
+            ]
+          },
+          {
+            "name": "xunit.runner.visualstudio",
+            "version": "2.8.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum.Tests\\PhotoAlbum.Tests.csproj"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [],
+        "projectReferences": [
+          {
+            "name": "PhotoAlbum",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "PhotoAlbum.Tests\\PhotoAlbum.Tests.csproj"
+              }
+            ],
+            "referencedProjectPath": "PhotoAlbum\\PhotoAlbum.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    }
+  ]
+}

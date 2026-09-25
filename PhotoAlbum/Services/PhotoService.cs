@@ -33,8 +33,11 @@ public class PhotoService : IPhotoService
 
         _uploadPath = _configuration["FileUpload:UploadPath"] ?? "wwwroot/uploads";
         _maxFileSizeBytes = _configuration.GetValue<long>("FileUpload:MaxFileSizeBytes", 10485760);
-        _allowedMimeTypes = _configuration.GetSection("FileUpload:AllowedMimeTypes").Get<string[]>()
-            ?? new[] { "image/jpeg", "image/png", "image/gif", "image/webp" };
+        
+        // Handle ConfigurationBinder.Get<T> properly for .NET 10
+        var section = _configuration.GetSection("FileUpload:AllowedMimeTypes");
+        _allowedMimeTypes = section.Exists() ? section.Get<string[]>() ?? new[] { "image/jpeg", "image/png", "image/gif", "image/webp" }
+                                             : new[] { "image/jpeg", "image/png", "image/gif", "image/webp" };
     }
 
     /// <summary>

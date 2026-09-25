@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using PhotoAlbum.Data;
 using PhotoAlbum.Services;
@@ -43,7 +44,7 @@ if (!Directory.Exists(uploadsPath))
 }
 
 // Run database migrations on startup in all environments (skip only when flagged as test)
-var isTestEnvironment = app.Configuration.GetValue<bool>("IsTestEnvironment");
+var isTestEnvironment = app.Configuration.GetValue<bool>("IsTestEnvironment", false);
 if (!isTestEnvironment)
 {
     try
@@ -63,7 +64,20 @@ if (!isTestEnvironment)
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    app.UseExceptionHandler(errorApp =>
+    {
+        errorApp.Run(async context =>
+        {
+            context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+            context.Response.ContentType = "text/html";
+            
+            var exceptionHandlerPathFeature = context.Features.Get<IExceptionHandlerPathFeature>();
+            if (exceptionHandlerPathFeature?.Error is not null)
+            {
+                await context.Response.WriteAsync(@"<html><body><h1>An error occurred</h1></body></html>");
+            }
+        });
+    });
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }

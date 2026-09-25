@@ -1,0 +1,126 @@
+# Aggregate NuGet packages details
+
+[← Back to the assessment index](../../assessment.md)
+
+| Package | Current Version | Suggested Version | Projects | Description |
+| :--- | :---: | :---: | :--- | :--- |
+| Azure.Core | 1.38.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Azure.Identity | 1.11.4 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| coverlet.collector | 6.0.2 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Humanizer.Core | 2.14.1 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.AspNetCore.Mvc.Testing | 9.0.9 | 10.0.12 | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | NuGet package upgrade is recommended |
+| Microsoft.AspNetCore.TestHost | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Bcl.AsyncInterfaces | 1.1.1 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Bcl.AsyncInterfaces | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.Build.Framework | 17.8.3 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.Build.Locator | 1.7.8 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.CodeAnalysis.Analyzers | 3.3.4 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.CodeAnalysis.Common | 4.8.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.CodeAnalysis.CSharp | 4.8.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.CodeAnalysis.CSharp.Workspaces | 4.8.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.CodeAnalysis.Workspaces.Common | 4.8.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.CodeAnalysis.Workspaces.MSBuild | 4.8.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Microsoft.CodeCoverage | 17.12.0 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.CSharp | 4.5.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Data.SqlClient | 5.1.6 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Data.SqlClient.SNI.runtime | 5.1.1 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.EntityFrameworkCore | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.EntityFrameworkCore.Abstractions | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.EntityFrameworkCore.Analyzers | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.EntityFrameworkCore.Design | 9.0.9 | 10.0.12 | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | NuGet package upgrade is recommended |
+| Microsoft.EntityFrameworkCore.InMemory | 9.0.9 | 10.0.12 | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | NuGet package upgrade is recommended |
+| Microsoft.EntityFrameworkCore.Relational | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.EntityFrameworkCore.SqlServer | 9.0.9 | 10.0.12 | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | NuGet package upgrade is recommended |
+| Microsoft.Extensions.Caching.Abstractions | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Caching.Memory | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Configuration | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Configuration.Abstractions | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Configuration.Binder | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Configuration.CommandLine | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Configuration.EnvironmentVariables | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Configuration.FileExtensions | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Configuration.Json | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Configuration.UserSecrets | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.DependencyInjection | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.DependencyInjection.Abstractions | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.DependencyModel | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Diagnostics | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Diagnostics.Abstractions | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.FileProviders.Abstractions | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.FileProviders.Physical | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.FileSystemGlobbing | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Hosting | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Hosting.Abstractions | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Logging | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Logging.Abstractions | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Logging.Configuration | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Logging.Console | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Logging.Debug | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Logging.EventLog | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Logging.EventSource | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Options | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Options.ConfigurationExtensions | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Extensions.Primitives | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Identity.Client | 4.61.3 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Identity.Client.Extensions.Msal | 4.61.3 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.IdentityModel.Abstractions | 6.35.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.IdentityModel.JsonWebTokens | 6.35.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.IdentityModel.Logging | 6.35.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.IdentityModel.Protocols | 6.35.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.IdentityModel.Protocols.OpenIdConnect | 6.35.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.IdentityModel.Tokens | 6.35.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.NET.Test.Sdk | 17.12.0 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.NETCore.Platforms | 1.1.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.NETCore.Targets | 1.1.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.SqlServer.Server | 1.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.TestPlatform.ObjectModel | 17.12.0 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.TestPlatform.TestHost | 17.12.0 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Microsoft.Win32.SystemEvents | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| Mono.TextTemplating | 3.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| Newtonsoft.Json | 13.0.1 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| SixLabors.ImageSharp | 3.1.11 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.ClientModel | 1.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.CodeDom | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Collections.Immutable | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Composition | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Composition.AttributedModel | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Composition.Convention | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Composition.Hosting | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Composition.Runtime | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Composition.TypedParts | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Configuration.ConfigurationManager | 6.0.1 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Diagnostics.DiagnosticSource | 6.0.1 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Diagnostics.EventLog | 9.0.9 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Drawing.Common | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Formats.Asn1 | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.IdentityModel.Tokens.Jwt | 6.35.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.IO.Pipelines | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Memory | 4.5.4 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Memory.Data | 1.0.2 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Numerics.Vectors | 4.5.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Reflection.Metadata | 1.6.0 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Reflection.Metadata | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Runtime | 4.3.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Runtime.Caching | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Runtime.CompilerServices.Unsafe | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Security.AccessControl | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Security.Cryptography.Cng | 5.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Security.Cryptography.ProtectedData | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Security.Permissions | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Security.Principal.Windows | 5.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Text.Encoding | 4.3.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Text.Encoding.CodePages | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Text.Encodings.Web | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Text.Json | 9.0.9 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Threading.Channels | 7.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md) | ✅Compatible |
+| System.Threading.Tasks.Extensions | 4.5.4 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| System.Windows.Extensions | 6.0.0 |  | [PhotoAlbum.csproj](../projects/PhotoAlbum.md)<br/>[PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| xunit | 2.9.2 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| xunit.abstractions | 2.0.3 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| xunit.analyzers | 1.16.0 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| xunit.assert | 2.9.2 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| xunit.core | 2.9.2 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| xunit.extensibility.core | 2.9.2 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| xunit.extensibility.execution | 2.9.2 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+| xunit.runner.visualstudio | 2.8.2 |  | [PhotoAlbum.Tests.csproj](../projects/PhotoAlbum.Tests.md) | ✅Compatible |
+
